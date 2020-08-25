@@ -1,0 +1,28 @@
+﻿<Window x:Class="RandomNumberGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RandomNumberGame"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="450">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" TextAlignment="Center" Margin="0,40,0,0" Text="Random Number Game" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="300" FontSize="25" FontStyle="Oblique" FontWeight="Bold"/>
+        <Button Name="tip" Content="방법" HorizontalAlignment="Center" Margin="0,94,0,0" VerticalAlignment="Top" Click="manual"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="68,167,0,0" Text="범위" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Slider Name="range" HorizontalAlignment="Left" Margin="115,166,0,0" VerticalAlignment="Top" Width="120" Maximum="100" Value="10" ValueChanged="rangeChange"/>
+        <TextBox Name="comValue" HorizontalAlignment="Left" Margin="235,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="20" Height="15" TextAlignment="Center" IsReadOnly="True" BorderThickness="0"></TextBox>
+
+        <TextBlock HorizontalAlignment="Left" Margin="68,205,0,0" Text="입력값" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox Name="inputValue" HorizontalAlignment="Left" Margin="115,204,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="50"/>
+
+        <TextBox Name="result" HorizontalAlignment="Center" Margin="0,254,0,0" Text="결   과" IsReadOnly="True" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20" TextAlignment="Center"/>
+
+        <Button Name="start" Content="START" HorizontalAlignment="Left" Margin="165,305,0,0" VerticalAlignment="Top" Click="getResult"/>
+        <Button Name="reset" Content="재시작" HorizontalAlignment="Left" Margin="245,305,0,0" VerticalAlignment="Top" Click="restart"/>
+
+
+
+    </Grid>
+</Window>
