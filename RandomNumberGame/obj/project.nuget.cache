@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z5cHZqWZAURJfTv9wxhjrKij2WPX93pFd94SH2B3D4/Bmg9ReEuegE4FzasCWcfJzRV1embjaQ39E6KZoExwYg==",
+  "dgSpecHash": "0+xA/9KgkO5ho3s/dS13pycnuTaxh5W4NwVyDr5bdKXunbVE50w6oj4eWpK9FSKGPC3Jt7rrs11okL1LO/TE2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER01\\Desktop\\VS2019\\RandomNumberGame\\RandomNumberGame.csproj",
+  "projectFilePath": "C:\\Users\\USER01\\Desktop\\VS2019\\WPF-Practice\\RandomNumberGame\\RandomNumberGame.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

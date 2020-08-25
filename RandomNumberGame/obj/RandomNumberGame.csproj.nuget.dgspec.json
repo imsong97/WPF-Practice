@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER01\\Desktop\\VS2019\\RandomNumberGame\\RandomNumberGame.csproj": {}
+    "C:\\Users\\USER01\\Desktop\\VS2019\\WPF-Practice\\RandomNumberGame\\RandomNumberGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER01\\Desktop\\VS2019\\RandomNumberGame\\RandomNumberGame.csproj": {
+    "C:\\Users\\USER01\\Desktop\\VS2019\\WPF-Practice\\RandomNumberGame\\RandomNumberGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER01\\Desktop\\VS2019\\RandomNumberGame\\RandomNumberGame.csproj",
+        "projectUniqueName": "C:\\Users\\USER01\\Desktop\\VS2019\\WPF-Practice\\RandomNumberGame\\RandomNumberGame.csproj",
         "projectName": "RandomNumberGame",
-        "projectPath": "C:\\Users\\USER01\\Desktop\\VS2019\\RandomNumberGame\\RandomNumberGame.csproj",
+        "projectPath": "C:\\Users\\USER01\\Desktop\\VS2019\\WPF-Practice\\RandomNumberGame\\RandomNumberGame.csproj",
         "packagesPath": "C:\\Users\\USER01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER01\\Desktop\\VS2019\\RandomNumberGame\\obj\\",
+        "outputPath": "C:\\Users\\USER01\\Desktop\\VS2019\\WPF-Practice\\RandomNumberGame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER01\\AppData\\Roaming\\NuGet\\NuGet.Config",
