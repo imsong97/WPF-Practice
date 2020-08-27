@@ -70,6 +70,8 @@
         <Button Name="btn_3" Content="3" HorizontalAlignment="Left" Margin="529,118,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
         <Button Name="btn_0" Content="0" HorizontalAlignment="Left" Margin="469,149,0,0" VerticalAlignment="Top" Height="26" Width="55" Click="Button_Click"/>
         <Button Name="btnequal" Content="=" HorizontalAlignment="Left" Margin="529,149,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="cancel" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="529,12,0,0" Background="IndianRed" FontWeight="Bold" Click="Cancel_Click" Width="41" Height="35">X</Button>
+
+        <Button Name="cancel" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="529,12,0,0" Background="IndianRed" FontWeight="Bold" Click="Cancel" Width="41" Height="35">X</Button>
+        <Button Name="min" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="476,12,0,0" Background="WhiteSmoke" FontWeight="Bold" Width="41" Height="35" Content="_" Click="Minimize"/>
     </Grid>
 </Window>

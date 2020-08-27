@@ -21,7 +21,7 @@ namespace VirtualKeyboard
     public partial class MainWindow : Window
     {
         KeyWindow kw = new KeyWindow();
-        public static bool boolean = true;
+        //public static bool boolean = true;
 
         public MainWindow()
         {
@@ -30,12 +30,13 @@ namespace VirtualKeyboard
 
         private void CursorLocation(object sender, RoutedEventArgs e) // 마우스 커서 더블클릭으로 textbox focus
         {
-            KeyWindow.tb = e.Source as TextBox;  
-
-            KeyboardControl(boolean);
+            KeyWindow.tb = e.Source as TextBox;
+            
+            kw.Show();
+            //KeyboardControl(boolean);
         }
 
-        private void KeyboardControl(bool b)
+        /*private void KeyboardControl(bool b)
         {
             try
             {
@@ -51,6 +52,6 @@ namespace VirtualKeyboard
                 }
             }
             catch{  }       
-        }
+        }*/
     }
 }
