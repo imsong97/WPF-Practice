@@ -70,7 +70,7 @@
         <Button Name="btn_3" Content="3" HorizontalAlignment="Left" Margin="525,337,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
         <Button Name="btn_0" Content="0" HorizontalAlignment="Left" Margin="465,368,0,0" VerticalAlignment="Top" Height="26" Width="55" Click="Button_Click"/>
         <Button Name="btnequal" Content="=" HorizontalAlignment="Left" Margin="525,368,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <TextBox Name="Edit_1" HorizontalAlignment="Left" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="190" Height="264" Margin="7,0,0,0" ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Auto" MouseEnter="CursorLocation"/>
+        <TextBox Name="Edit_1" HorizontalAlignment="Left" Text="TextBox1" TextWrapping="Wrap" VerticalAlignment="Top" Width="190" Height="264" Margin="7,0,0,0" ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Auto" MouseEnter="CursorLocation"/>
         <TextBox Name="Edit_2" HorizontalAlignment="Left" Text="TextBox2" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"  Height="264" Margin="197,0,0,0" ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Auto" MouseEnter="CursorLocation"/>
         <TextBox Name="Edit_3" HorizontalAlignment="Left" Margin="387,0,0,0" Text="TextBox3" TextWrapping="Wrap" VerticalAlignment="Top" Width="190" Height="264" ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Auto"  MouseEnter="CursorLocation"/>
     </Grid>
