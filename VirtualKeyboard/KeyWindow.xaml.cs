@@ -24,6 +24,7 @@ namespace VirtualKeyboard
         public KeyWindow()
         {
             InitializeComponent();
+            this.Topmost = true;
         }
         private void Shift_Click(object sender, RoutedEventArgs e) // shift
         {
@@ -34,7 +35,7 @@ namespace VirtualKeyboard
         }
         private void Enter_Click(object sender, RoutedEventArgs e) // enter
         {
-            //enter
+            tb.Text += "\n";
         }
         private void Back_Click(object sender, RoutedEventArgs e) // backspace
         {

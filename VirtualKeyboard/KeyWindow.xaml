@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VirtualKeyboard"
         mc:Ignorable="d"
-        Title="KeyWindow" Height="214" Width="594" WindowStyle="None" MouseLeftButtonDown="WindowDrag">
+        Title="KeyWindow" Height="214" Width="594" WindowStyle="None" MouseLeftButtonDown="WindowDrag" ResizeMode="NoResize" BorderBrush="Black" BorderThickness="1">
     <Grid>
         <Button Name="btn1" Content="~" HorizontalAlignment="Left" Margin="29,55,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click" />
         <Button Name="btnspace" Content="␣" HorizontalAlignment="Left" Margin="29,86,0,0" VerticalAlignment="Top" Height="89" Width="25" Click="Space_Click"/>
