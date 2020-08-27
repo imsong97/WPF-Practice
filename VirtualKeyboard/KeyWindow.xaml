@@ -5,71 +5,71 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VirtualKeyboard"
         mc:Ignorable="d"
-        Title="KeyWindow" Height="214" Width="594">
+        Title="KeyWindow" Height="214" Width="594" WindowStyle="None" MouseLeftButtonDown="WindowDrag">
     <Grid>
-        <Button Name="btn1" Content="~" HorizontalAlignment="Left" Margin="29,36,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click" />
-        <Button Name="btnspace" Content="␣" HorizontalAlignment="Left" Margin="29,67,0,0" VerticalAlignment="Top" Height="89" Width="25" Click="Space_Click"/>
-        <Button Name="btn2" Content="!" HorizontalAlignment="Left" Margin="59,36,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_q" Content="q" HorizontalAlignment="Left" Margin="59,67,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_a" Content="a" HorizontalAlignment="Left" Margin="59,99,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_z" Content="z" HorizontalAlignment="Left" Margin="59,130,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn3" Content="@" HorizontalAlignment="Left" Margin="89,36,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_w" Content="w" HorizontalAlignment="Left" Margin="89,67,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_s" Content="s" HorizontalAlignment="Left" Margin="89,99,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_x" Content="x" HorizontalAlignment="Left" Margin="89,130,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn4" Content="#" HorizontalAlignment="Left" Margin="119,36,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_e" Content="e" HorizontalAlignment="Left" Margin="119,67,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_d" Content="d" HorizontalAlignment="Left" Margin="119,99,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_c" Content="c" HorizontalAlignment="Left" Margin="119,130,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn5" Content="$" HorizontalAlignment="Left" Margin="149,36,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_r" Content="r" HorizontalAlignment="Left" Margin="149,67,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_f" Content="f" HorizontalAlignment="Left" Margin="149,99,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_v" Content="v" HorizontalAlignment="Left" Margin="149,130,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn6" Content="%" HorizontalAlignment="Left" Margin="179,36,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_t" Content="t" HorizontalAlignment="Left" Margin="179,67,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_g" Content="g" HorizontalAlignment="Left" Margin="179,99,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_b" Content="b" HorizontalAlignment="Left" Margin="179,130,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn7" Content="^" HorizontalAlignment="Left" Margin="209,36,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_y" Content="y" HorizontalAlignment="Left" Margin="209,67,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_h" Content="h" HorizontalAlignment="Left" Margin="209,99,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_n" Content="n" HorizontalAlignment="Left" Margin="209,130,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn8" Content="&amp;" HorizontalAlignment="Left" Margin="239,36,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_u" Content="u" HorizontalAlignment="Left" Margin="239,67,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_j" Content="j" HorizontalAlignment="Left" Margin="239,99,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_m" Content="m" HorizontalAlignment="Left" Margin="240,130,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn9" Content="*" HorizontalAlignment="Left" Margin="269,36,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_i" Content="i" HorizontalAlignment="Left" Margin="269,67,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_k" Content="k" HorizontalAlignment="Left" Margin="269,99,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn19" Content="," HorizontalAlignment="Left" Margin="270,130,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn10" Content="(" HorizontalAlignment="Left" Margin="299,36,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_o" Content="o" HorizontalAlignment="Left" Margin="299,67,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_l" Content="l" HorizontalAlignment="Left" Margin="299,99,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn20" Content="." HorizontalAlignment="Left" Margin="300,130,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn11" Content=")" HorizontalAlignment="Left" Margin="329,36,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_p" Content="p" HorizontalAlignment="Left" Margin="329,67,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn16" Content=";" HorizontalAlignment="Left" Margin="329,99,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn12" Content="-" HorizontalAlignment="Left" Margin="359,36,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn14" Content="[" HorizontalAlignment="Left" Margin="359,67,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn17" Content="'" HorizontalAlignment="Left" Margin="359,99,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn21" Content="?" HorizontalAlignment="Left" Margin="329,130,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn13" Content="+" HorizontalAlignment="Left" Margin="389,36,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn15" Content="]" HorizontalAlignment="Left" Margin="389,67,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn18" Content="\" HorizontalAlignment="Left" Margin="389,99,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn22" Content="/" HorizontalAlignment="Left" Margin="360,130,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btnback" Content="Back" HorizontalAlignment="Left" Margin="419,36,0,0" VerticalAlignment="Top" Height="26" Width="45" Click="Back_Click"/>
-        <Button Name="btnenter" Content="Enter" HorizontalAlignment="Left" Margin="419,68,0,0" VerticalAlignment="Top" Height="58" Width="45" Click="Enter_Click"/>
-        <Button Name="btnshift" Content="Shift" HorizontalAlignment="Left" Margin="389,130,0,0" VerticalAlignment="Top" Height="26" Width="76" Click="Shift_Click"/>
-        <Button Name="btn_7" Content="7" HorizontalAlignment="Left" Margin="469,36,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_4" Content="4" HorizontalAlignment="Left" Margin="469,67,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_1" Content="1" HorizontalAlignment="Left" Margin="469,99,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_8" Content="8" HorizontalAlignment="Left" Margin="499,36,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_5" Content="5" HorizontalAlignment="Left" Margin="499,67,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_2" Content="2" HorizontalAlignment="Left" Margin="499,99,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_9" Content="9" HorizontalAlignment="Left" Margin="529,36,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_6" Content="6" HorizontalAlignment="Left" Margin="529,67,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_3" Content="3" HorizontalAlignment="Left" Margin="529,99,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-        <Button Name="btn_0" Content="0" HorizontalAlignment="Left" Margin="469,130,0,0" VerticalAlignment="Top" Height="26" Width="55" Click="Button_Click"/>
-        <Button Name="btnequal" Content="=" HorizontalAlignment="Left" Margin="529,130,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
-
+        <Button Name="btn1" Content="~" HorizontalAlignment="Left" Margin="29,55,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click" />
+        <Button Name="btnspace" Content="␣" HorizontalAlignment="Left" Margin="29,86,0,0" VerticalAlignment="Top" Height="89" Width="25" Click="Space_Click"/>
+        <Button Name="btn2" Content="!" HorizontalAlignment="Left" Margin="59,55,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_q" Content="q" HorizontalAlignment="Left" Margin="59,86,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_a" Content="a" HorizontalAlignment="Left" Margin="59,118,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_z" Content="z" HorizontalAlignment="Left" Margin="59,149,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn3" Content="@" HorizontalAlignment="Left" Margin="89,55,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_w" Content="w" HorizontalAlignment="Left" Margin="89,86,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_s" Content="s" HorizontalAlignment="Left" Margin="89,118,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_x" Content="x" HorizontalAlignment="Left" Margin="89,149,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn4" Content="#" HorizontalAlignment="Left" Margin="119,55,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_e" Content="e" HorizontalAlignment="Left" Margin="119,86,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_d" Content="d" HorizontalAlignment="Left" Margin="119,118,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_c" Content="c" HorizontalAlignment="Left" Margin="119,149,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn5" Content="$" HorizontalAlignment="Left" Margin="149,55,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_r" Content="r" HorizontalAlignment="Left" Margin="149,86,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_f" Content="f" HorizontalAlignment="Left" Margin="149,118,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_v" Content="v" HorizontalAlignment="Left" Margin="149,149,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn6" Content="%" HorizontalAlignment="Left" Margin="179,55,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_t" Content="t" HorizontalAlignment="Left" Margin="179,86,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_g" Content="g" HorizontalAlignment="Left" Margin="179,118,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_b" Content="b" HorizontalAlignment="Left" Margin="179,149,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn7" Content="^" HorizontalAlignment="Left" Margin="209,55,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_y" Content="y" HorizontalAlignment="Left" Margin="209,86,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_h" Content="h" HorizontalAlignment="Left" Margin="209,118,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_n" Content="n" HorizontalAlignment="Left" Margin="209,149,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn8" Content="&amp;" HorizontalAlignment="Left" Margin="239,55,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_u" Content="u" HorizontalAlignment="Left" Margin="239,86,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_j" Content="j" HorizontalAlignment="Left" Margin="239,118,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_m" Content="m" HorizontalAlignment="Left" Margin="240,149,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn9" Content="*" HorizontalAlignment="Left" Margin="269,55,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_i" Content="i" HorizontalAlignment="Left" Margin="269,86,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_k" Content="k" HorizontalAlignment="Left" Margin="269,118,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn19" Content="," HorizontalAlignment="Left" Margin="270,149,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn10" Content="(" HorizontalAlignment="Left" Margin="299,55,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_o" Content="o" HorizontalAlignment="Left" Margin="299,86,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_l" Content="l" HorizontalAlignment="Left" Margin="299,118,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn20" Content="." HorizontalAlignment="Left" Margin="300,149,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn11" Content=")" HorizontalAlignment="Left" Margin="329,55,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_p" Content="p" HorizontalAlignment="Left" Margin="329,86,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn16" Content=";" HorizontalAlignment="Left" Margin="329,118,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn12" Content="-" HorizontalAlignment="Left" Margin="359,55,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn14" Content="[" HorizontalAlignment="Left" Margin="359,86,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn17" Content="'" HorizontalAlignment="Left" Margin="359,118,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn21" Content="?" HorizontalAlignment="Left" Margin="329,149,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn13" Content="+" HorizontalAlignment="Left" Margin="389,55,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn15" Content="]" HorizontalAlignment="Left" Margin="389,86,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn18" Content="\" HorizontalAlignment="Left" Margin="389,118,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn22" Content="/" HorizontalAlignment="Left" Margin="360,149,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btnback" Content="Back" HorizontalAlignment="Left" Margin="419,55,0,0" VerticalAlignment="Top" Height="26" Width="45" Click="Back_Click"/>
+        <Button Name="btnenter" Content="Enter" HorizontalAlignment="Left" Margin="419,86,0,0" VerticalAlignment="Top" Height="58" Width="45" Click="Enter_Click"/>
+        <Button Name="btnshift" Content="Shift" HorizontalAlignment="Left" Margin="389,149,0,0" VerticalAlignment="Top" Height="26" Width="76" Click="Shift_Click"/>
+        <Button Name="btn_7" Content="7" HorizontalAlignment="Left" Margin="469,55,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_4" Content="4" HorizontalAlignment="Left" Margin="469,86,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_1" Content="1" HorizontalAlignment="Left" Margin="469,118,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_8" Content="8" HorizontalAlignment="Left" Margin="499,55,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_5" Content="5" HorizontalAlignment="Left" Margin="499,86,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_2" Content="2" HorizontalAlignment="Left" Margin="499,118,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_9" Content="9" HorizontalAlignment="Left" Margin="529,55,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_6" Content="6" HorizontalAlignment="Left" Margin="529,86,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_3" Content="3" HorizontalAlignment="Left" Margin="529,118,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="btn_0" Content="0" HorizontalAlignment="Left" Margin="469,149,0,0" VerticalAlignment="Top" Height="26" Width="55" Click="Button_Click"/>
+        <Button Name="btnequal" Content="=" HorizontalAlignment="Left" Margin="529,149,0,0" VerticalAlignment="Top" Height="26" Width="25" Click="Button_Click"/>
+        <Button Name="cancel" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="529,12,0,0" Background="IndianRed" FontWeight="Bold" Click="Cancel_Click" Width="41" Height="35">X</Button>
     </Grid>
 </Window>

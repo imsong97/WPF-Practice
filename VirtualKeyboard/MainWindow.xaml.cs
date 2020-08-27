@@ -21,14 +21,14 @@ namespace VirtualKeyboard
     public partial class MainWindow : Window
     {
         KeyWindow kw = new KeyWindow();
-        private bool boolean = true;
+        public static bool boolean = true;
 
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        public void CursorLocation(object sender, RoutedEventArgs e) // 마우스 커서 위치에 따른 TextBox 감지
+        private void CursorLocation(object sender, RoutedEventArgs e) // 마우스 커서 더블클릭으로 textbox focus
         {
             KeyWindow.tb = e.Source as TextBox;  
 

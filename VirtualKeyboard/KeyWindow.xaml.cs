@@ -54,6 +54,15 @@ namespace VirtualKeyboard
             tb.Text += btn.Content;
             lower();
         }
+        private void Cancel_Click(object sender, RoutedEventArgs e) // 가상키보드 hide
+        {
+            this.Hide();
+            MainWindow.boolean = true;
+        }
+        private void WindowDrag(object sender, RoutedEventArgs e) // 가상키보드 위치변경(드래그 방식)
+        {
+            this.DragMove();
+        }
 
         private void upper() // upper 적용
         {
