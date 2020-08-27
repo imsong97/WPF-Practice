@@ -36,3 +36,5 @@ C:\Users\USER01\Desktop\VS2019\WPF-Practice\VirtualKeyboard\obj\Debug\netcoreapp
 C:\Users\USER01\Desktop\VS2019\WPF-Practice\VirtualKeyboard\obj\Debug\netcoreapp3.1\VirtualKeyboard.dll
 C:\Users\USER01\Desktop\VS2019\WPF-Practice\VirtualKeyboard\obj\Debug\netcoreapp3.1\VirtualKeyboard.pdb
 C:\Users\USER01\Desktop\VS2019\WPF-Practice\VirtualKeyboard\obj\Debug\netcoreapp3.1\VirtualKeyboard.genruntimeconfig.cache
+C:\Users\USER01\Desktop\VS2019\WPF-Practice\VirtualKeyboard\obj\Debug\netcoreapp3.1\KeyWindow.g.cs
+C:\Users\USER01\Desktop\VS2019\WPF-Practice\VirtualKeyboard\obj\Debug\netcoreapp3.1\KeyWindow.baml
