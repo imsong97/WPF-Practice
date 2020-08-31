@@ -21,7 +21,7 @@ namespace VirtualKeyboard
     public partial class MainWindow : Window
     {
         KeyWindow kw = new KeyWindow();
-        //public static bool boolean = true;
+        public static bool boolean = true;
 
         public MainWindow()
         {
@@ -33,6 +33,7 @@ namespace VirtualKeyboard
             KeyWindow.tb = e.Source as TextBox;
             
             kw.Show();
+            kw.WindowState = WindowState.Normal;
             //KeyboardControl(boolean);
         }
 
@@ -51,7 +52,7 @@ namespace VirtualKeyboard
                     boolean = true;
                 }
             }
-            catch{  }       
+            catch{  }
         }*/
     }
 }
