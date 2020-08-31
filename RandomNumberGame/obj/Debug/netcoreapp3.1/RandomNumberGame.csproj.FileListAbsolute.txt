@@ -24,11 +24,9 @@ C:\Users\USER01\Desktop\VS2019\WPF-Practice\RandomNumberGame\bin\Debug\netcoreap
 C:\Users\USER01\Desktop\VS2019\WPF-Practice\RandomNumberGame\bin\Debug\netcoreapp3.1\RandomNumberGame.dll
 C:\Users\USER01\Desktop\VS2019\WPF-Practice\RandomNumberGame\bin\Debug\netcoreapp3.1\RandomNumberGame.pdb
 C:\Users\USER01\Desktop\VS2019\WPF-Practice\RandomNumberGame\obj\Debug\netcoreapp3.1\RandomNumberGame.csprojAssemblyReference.cache
-C:\Users\USER01\Desktop\VS2019\WPF-Practice\RandomNumberGame\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 C:\Users\USER01\Desktop\VS2019\WPF-Practice\RandomNumberGame\obj\Debug\netcoreapp3.1\App.g.cs
 C:\Users\USER01\Desktop\VS2019\WPF-Practice\RandomNumberGame\obj\Debug\netcoreapp3.1\RandomNumberGame_MarkupCompile.cache
 C:\Users\USER01\Desktop\VS2019\WPF-Practice\RandomNumberGame\obj\Debug\netcoreapp3.1\RandomNumberGame_MarkupCompile.lref
-C:\Users\USER01\Desktop\VS2019\WPF-Practice\RandomNumberGame\obj\Debug\netcoreapp3.1\MainWindow.baml
 C:\Users\USER01\Desktop\VS2019\WPF-Practice\RandomNumberGame\obj\Debug\netcoreapp3.1\RandomNumberGame.g.resources
 C:\Users\USER01\Desktop\VS2019\WPF-Practice\RandomNumberGame\obj\Debug\netcoreapp3.1\RandomNumberGame.AssemblyInfoInputs.cache
 C:\Users\USER01\Desktop\VS2019\WPF-Practice\RandomNumberGame\obj\Debug\netcoreapp3.1\RandomNumberGame.AssemblyInfo.cs
@@ -36,3 +34,5 @@ C:\Users\USER01\Desktop\VS2019\WPF-Practice\RandomNumberGame\obj\Debug\netcoreap
 C:\Users\USER01\Desktop\VS2019\WPF-Practice\RandomNumberGame\obj\Debug\netcoreapp3.1\RandomNumberGame.dll
 C:\Users\USER01\Desktop\VS2019\WPF-Practice\RandomNumberGame\obj\Debug\netcoreapp3.1\RandomNumberGame.pdb
 C:\Users\USER01\Desktop\VS2019\WPF-Practice\RandomNumberGame\obj\Debug\netcoreapp3.1\RandomNumberGame.genruntimeconfig.cache
+C:\Users\USER01\Desktop\VS2019\WPF-Practice\RandomNumberGame\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\USER01\Desktop\VS2019\WPF-Practice\RandomNumberGame\obj\Debug\netcoreapp3.1\MainWindow.baml
